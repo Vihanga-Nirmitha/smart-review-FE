@@ -13,7 +13,7 @@ import { Router } from '@angular/router';
 export class Login {
   email = '';
   password = '';
-  private fake = 'eyJhbGciOiJIUzUxMiJ9.eyJST0xFUyI6WyJURUFDSEVSIl0sInN1YiI6IlNJVEhNSV9XIiwiaWF0IjoxNzYxODA1MDE3LCJleHAiOjE3NjIxNjUwMTd9.dPqX4d8PfXCHK2M3BVuq1Rkx4OB_iQrXxfchAstDgzI2B15iEAkb9jgp_fnQlABz8dycvj3xCS1_F3m-yoSBvQ'; // replace with server token
+  private fake = 'eyJhbGciOiJIUzUxMiJ9.eyJST0xFUyI6WyJTVFVERU5UIl0sInVzZXJJZCI6MiwiZW1haWwiOiJ2aWhhbmdhQGdtYWlsLmNvbSIsInN1YiI6Ik5JUk1JVEhBIiwiaWF0IjoxNzYxOTYxMjI3LCJleHAiOjE3NjE5OTcyMjd9.xQvPyB44JToLBECLPZIsmsFEnJtvw17_t_qloKW4GCfRgxj6HUnCx89UiR-PSWZh3FF_dFGKgRBOU5408aNuDg'; // replace with server token
     
 
   constructor(private router: Router) {}
