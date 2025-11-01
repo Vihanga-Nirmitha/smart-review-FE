@@ -23,7 +23,7 @@ export class Login {
     console.log("this.email ",this.email );
     console.log("this.password ",this.password );
     
-    if (this.email === '3333' && this.password === '1234') {
+    if (this.email === 'admin' && this.password === '1234') {
             localStorage.setItem('token', this.fake);
       this.router.navigate(['/app/admin/dashboard']);
     } else if (this.email === '2222' && this.password === '1234') {
